@@ -1,3 +1,3 @@
 <div>
-    <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
+    <h2>metodo de soma</h2>
 </div>
