@@ -8,7 +8,7 @@
     <title>Curso - Blade Components</title>
   </head>
   <body>
-      <main class="container">
+      <main class="container my-5">
           @yield('content')
       </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
