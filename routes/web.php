@@ -11,3 +11,4 @@ Route::get('/component-method', function () {
 });
 Route::get('/attributes', function () { return view('attributes'); });
 Route::get('/slots', function () { return view('slots'); });
+Route::get('/inline', function () { return view('inline'); });
