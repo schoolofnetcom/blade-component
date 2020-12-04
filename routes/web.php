@@ -9,6 +9,5 @@ Route::get('/component-method', function () {
     $users = User::all();
     return view('methods', compact('users'));
 });
-Route::get('/attributes', function () {
-    return view('attributes');
-});
+Route::get('/attributes', function () { return view('attributes'); });
+Route::get('/slots', function () { return view('slots'); });
