@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 use App\Models\User;
 
 Route::get('/', function () { return view('welcome'); });
@@ -13,3 +14,7 @@ Route::get('/attributes', function () { return view('attributes'); });
 Route::get('/slots', function () { return view('slots'); });
 Route::get('/inline', function () { return view('inline'); });
 Route::get('/anonimo', function () { return view('anonimo'); });
+
+Route::get('/dynamic', function (Request $request) {
+    return view('dynamic', ['component' => $request->get('c')]);
+});
